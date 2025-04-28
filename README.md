@@ -14,9 +14,9 @@ Find the configurations for each interface type below
 
 # Interface Configuration
 
-- Create a Flow with `Webhook` trigger and set the method as `POST`, now copy the `id` of the Flow. Make sure that the trigger is not asynchronous.
+- Create a Flow with `Webhook` trigger and set the method as `POST`, now copy the `id` of the Flow. In the trigger setup: disable asynchronous mode and set response body to 'Data of Last Operation'
 - Create a `Button Links` field in the desired collection and choose `Flow2PDF` as the interface.
-- Create `extensions/template` directory and add your `.liquid` template.
+- Create `extensions/templates` directory and add your `.liquid` template.
 
 ![Interface Configuration](https://github.com/karamokoisrael/directus-extension-flow2pdf/blob/master/images/interface-configuration.png?raw=true "Configurations")
 
